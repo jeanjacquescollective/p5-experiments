@@ -33,8 +33,9 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1024, 780);
-  image(img, 0, 0);
+  createCanvas(windowWidth, windowHeight);
+  // createCanvas(windowWidth, windowWidth/img.width * windowHeight);
+  image(img, 0, 0, width, height);
 }
 
 function draw() {

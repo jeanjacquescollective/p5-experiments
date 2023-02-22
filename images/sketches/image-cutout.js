@@ -29,7 +29,7 @@
 var img;
 
 function preload() {
-  img = loadImage('data/pic.png');
+  img = loadImage('assets/dog.jpg');
 }
 
 function setup() {
